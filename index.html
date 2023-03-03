@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home</title>
+</head>
+<body>
+       <header id="irarriba">
+        <img class="ajustarLogoMenu"  src="img/Logo.PNG" alt="Logo Restaurante"/>
+            <nav>
+                <ul class="quitarViñetas  menuNav  centrarMenu">
+                    <a class="quitarRaya" href="#">
+                      <li>Home</li>
+                    </a>
+                    <a class="quitarRaya" href="#Menu">
+                        <li>Menu</li>
+                    </a>
+                    <a class="quitarRaya" href="#historia">
+                        <li>Our History</li>
+                    </a>
+                    <a class="quitarRaya" href="#contacto">
+                      <li>Contact</li>
+                    </a>
+                </ul>
+           </nav>
+       </header> 
+       <!--Seccion para realizar reserva-->
+       <div class="bordes">
+            <h1 class="ajustarLogoResto">
+                  KlassyCafe
+            </h1>
+            <h5 class="ajustarSubtitulo">THE BEST EXPERIENCE</h5>
+            <img class="moverImg" src="img/img1.jpg" alt="Buenas Experiencias"/>
+            <button class="boton borderBoton"> 
+                <a class="quitarRaya" href="#reservar">
+                  Make a Reserve
+                </a>
+            </button>
+        </div>
+        
+        <br>
+        <!--Contenido-->  
+    <main>
+         <h5 id="historia" class="sectionAboutUs">—ABOUT US—</h5>
+             <br>
+             <h3>
+                We Leave A Delicious
+                <br>
+                Memory For You
+             </h3>
+              <br>
+           <div class="ajustoContenido">
+              <p class="gridArea">
+                We have different types of food from different countries.
+                Every bite, will be a trip to those countries. We have for example: Sushi-Empanadas.
+                
+                ¿Do you want to know more? Then, yo cant lost the chance to live the experience. 
+               </p>
+                <div class="gridArea2">
+                  <img class="tamañoImgs" src="img/Comida1.jpg" alt="Primera Comida"/>
+                  <img class="tamañoImgs"  src="img/Comida2.jpg" alt="Segunda Comida"/>
+                  <img class="tamañoImgs" src="img/Comida3.jpg" alt="Tercer Comida"/>
+                </div>  
+           </div>
+            <a class="quitarRaya irArriba" href="#irarriba">
+              <h2><u>Ir arriba</u></h2>
+            </a>
+           <br>
+           <iframe class="ajustarVideo"  width="40%" height="340px" src="https://www.youtube.com/embed/dGgCO1GNM0Y" title="Promoción Restaurant - Plantilla de Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+               picture-in-picture; web-share" allowfullscreen>
+           </iframe>
+          
+           <h5 id="Menu" class="ajustarSectGaleria">—OUR MENU—</h5>
+           <div class="gridGaleria">
+                <div class="gridImg1 bordesImgs">
+                    <img class="tamañoImg1" src="img/menu-item-01.jpg" alt="Opcion1"> 
+                    <h4 class="ajustarFormatLetraGaleria">Chocolate Cake</h4>
+                    <h4 class="ajustarFormatLetraGaleria">Price: 5usd</h4>
+                </div>
+                
+                <div class="gridImg2 bordesImgs">
+                    <img class="tamañoImg2"  src="img/menu-item-02.jpg" alt="Opcion2">
+                    <h4 class="ajustarFormatLetraGaleria">Pancakes</h4>
+                    <h4 class="ajustarFormatLetraGaleria">Price: 10usd</h4>
+                </div>
+
+                <div class="gridImg3 bordesImgs">
+                    <img class="tamañoImg3" src="img/menu-item-03.jpg" alt="Opcion3">
+                    <h4 class="ajustarFormatLetraGaleria">Bread</h4>
+                    <h4 class="ajustarFormatLetraGaleria">Price: 2usd</h4>
+                </div>
+
+                <div class="gridImg4 bordesImgs">
+                    <img class="tamañoImg4" src="img/menu-item-04.jpg" alt="Opcion4">
+                    <h4 class="ajustarFormatLetraGaleria">Blueberry CheeseCake</h4>
+                    <h4 class="ajustarFormatLetraGaleria">Price: 10usd</h4>
+                </div>
+
+                <div class="gridImg5 bordesImgs">
+                    <img class="tamañoImg5" src="img/menu-item-05.jpg" alt="Opcion5">
+                    <h4 class="ajustarFormatLetraGaleria">Cup Cake</h4>
+                    <h4 class="ajustarFormatLetraGaleria">Price: 2usd</h4>
+                </div>
+
+                <div class="gridImg6 bordesImgs">
+                    <img class="tamañoImg6" src="img/BurritoCarne.jpg" alt="Opcion6">
+                    <h4 class="ajustarFormatLetraGaleria">Burrito</h4>
+                    <h4 class="ajustarFormatLetraGaleria">Price: 5usd</h4>
+                </div>
+           </div>
+           <a class="quitarRaya irArriba2" href="#irarriba">
+            <h2><u>Ir arriba</u></h2>
+           </a>
+    </main>  
+    <footer id="contacto" class="ajustarForm">
+       <h2 class="ajustarForm">FORMULARIO DE CONTACTO</h2>
+       <br>
+       <form id="reservar" action="otroHTML.html" method="post">
+            <p><label class="formatoFormLetra" for="nombre">Nombre:
+            <input type="text" id="nombre"></label></p>
+            <br>
+            <p><label class="formatoFormLetra" for="Apellido">Apelido:
+            <input type="text" id="Apellido"></label></p>
+            <br>
+            <p><label class="formatoFormLetra" for="Mail">Mail:
+              <input type="text" id="Mail"></label></p>
+            <br>
+            <button type="submit">Enviar</button>
+       </form>
+    </footer>
+    <a class="quitarRaya irArriba3" href="#irarriba">
+      <h2><u>Ir arriba</u></h2>
+    </a> 
+</body>
+</html>

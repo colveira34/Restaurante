@@ -1,0 +1,303 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.bordes{
+  background-color: red;
+  width:100%;
+  height: 500px;
+  margin-bottom: 40px;
+  margin-left: 0;
+}
+
+.menuNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-bottom: 1px;
+    width: 50%;
+}
+
+.centrarMenu{
+    position: relative;
+    bottom: 35px;
+}
+
+.quitarViñetas{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.quitarRaya{
+  text-decoration: none;
+  color: black;
+}
+
+
+li:hover{
+    color:red;
+}
+
+.moverImg{
+  width:100%;
+  height: 500px;
+  margin-left:400px;
+}
+
+.ajustarLogoResto{
+  position:absolute;
+  top: 250px;
+  color:white;
+  font-weight: bold;
+  font-size: 45px;
+  font-style:italic;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 60px;
+}
+
+.ajustarSubtitulo{
+  position:absolute;
+  top: 298px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  font-style:italic;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 60px;
+
+}
+
+.boton{
+    position: relative;
+    bottom: 220px;
+    left: 90px;
+    border: 1px solid white; /*anchura, estilo y color borde*/
+    width:150px;
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/ 
+  }
+
+  .borderBoton:hover{
+    border: 2px solid black;
+  }
+
+  
+  .sectionAboutUs{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    left:120px;
+    top:70px;
+  }
+ 
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    top:60px; 
+    left:120px;
+    
+  }
+
+  /******Uso Grids*************/
+
+  .ajustoContenido{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas: "Area1" 
+                          "Area2";
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+
+  .gridArea{
+    grid-area: Area1;
+    width:500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left:50px;
+  }
+
+  .gridArea2{
+    grid-area: Area2;
+    height: 200px;
+    margin-top: 15px;
+    width: 700px;
+  }
+  
+   .tamañoImgs{
+      margin-left:40px;
+      width:17%;
+   }
+
+   .tamañoImgsHuver:hover{
+     border: 2px solid red;
+   }
+
+  .ajustarVideo{
+    position: relative;
+    left:620px;
+    bottom: 355px;
+  }
+
+  .ajustarLogoMenu{
+    margin-left:50px;
+    margin-top:10px;
+  }
+
+  /**Implmento Grid para galeria de imagenes***/
+  
+  .gridGaleria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+                          1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "Area1 Area3  Area5"
+                          "Area2 Area4 Area6";
+    position: relative;
+    bottom: 180px;
+    left:110px;
+  }
+   
+  .gridImg1{
+    grid-area: Area1;
+    background-image: linear-gradient(blue, grey,black);
+    height: 350px;
+    width: 300px;
+    margin-left: 3px;
+  }
+  .gridImg2{
+    grid-area: Area2;
+    background-image: linear-gradient(blue, grey,black);
+    height: 400px;
+    width: 300px;
+    margin-left: 3px;
+    margin-top: 15px;
+  }
+  
+  .gridImg3{
+    grid-area: Area3;
+    background-image: linear-gradient(blue, grey,black);
+    height: 350px;
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  .gridImg4{
+    grid-area: Area4;
+    background-image: linear-gradient(blue, grey,black);
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .gridImg5{
+    grid-area: Area5;
+    background-image: linear-gradient(blue, grey,black);
+    height: 350px;
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  .gridImg6{
+    grid-area: Area6;
+    background-image: linear-gradient(blue, grey,black);
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .tamañoImg1{
+    width:300px;
+    height: 270px; 
+  }
+   
+  .tamañoImg2{
+    width:300px;
+    height: 310px; 
+  }
+  
+  .tamañoImg3{
+    width:300px;
+    height: 270px; 
+  }
+
+  .tamañoImg4{
+    width:300px;
+    height: 310px; 
+  }
+
+  .tamañoImg5{
+    width:300px;
+    height: 272px; 
+  }
+  
+  .tamañoImg6{
+    width:300px;
+    height: 310px; 
+  }
+ .bordesImgs:hover{
+     border: 4px solid red;
+ }
+
+ .ajustarFormatLetraGaleria{
+   color:white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   margin-top: 10px;
+ }
+
+ .ajustarSectGaleria{
+  position: relative;
+  bottom: 200px;
+  left:115px;
+  color:red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+ }
+
+ h2{
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .irArriba{
+  color:blue;
+  position:relative;
+  left:100px;
+  top:10px;
+ }
+
+ .irArriba2{
+  color:blue;
+  position:relative;
+  left:120px;
+  bottom: 100px;
+ }
+
+ .irArriba3{
+  color:blue;
+  position:relative;
+  left:120px;
+  bottom: 10px;
+ }
+ .ajustarForm{
+  font-size: 30px;
+  text-align: center;
+ }
+
+ .formatoFormLetra{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+ }
